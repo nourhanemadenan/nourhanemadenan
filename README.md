@@ -15,7 +15,7 @@
 |---|---|---|
 | **[Nasam](https://github.com/nourhanemadenan/nasam)** | Breath-sound disease detection from raw audio — Wav2Vec2 encoder with progressive unfreezing, F1-tuned decision threshold | PyTorch · Transformers · librosa |
 | **[Digger](https://github.com/nourhanemadenan/digger)** | Multi-output forecasting of 10 global commodity prices, with inflation and armed-conflict features · **R² 0.99** | scikit-learn · XGBoost · pandas |
-| **[Machine Failure Prediction](https://github.com/nourhanemadenan/machine-failure-prediction)** | Predictive maintenance on a 3.4%-positive class — SMOTE, 8 models, Keras Tuner NN · **0.68 recall on failures** | scikit-learn · XGBoost · TensorFlow |
+| **[Machine Failure Prediction](https://github.com/nourhanemadenan/machine-failure-prediction)** | Predictive maintenance on a 3.4%-positive class — SMOTE, 8 models, Keras Tuner NN · **0.76 recall on failures** | scikit-learn · XGBoost · TensorFlow |
 | **[Breast Cancer Prediction](https://github.com/nourhanemadenan/breast-cancer-prediction)** | Six classifiers benchmarked on the Wisconsin diagnostic dataset · **98.2% accuracy** | scikit-learn · XGBoost |
 | **[Liver Disease Prediction](https://github.com/nourhanemadenan/liver-disease-prediction)** | Hard, imbalanced clinical dataset — reported honestly, with the failure modes named | scikit-learn · pandas |
 

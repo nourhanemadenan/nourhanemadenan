@@ -44,7 +44,7 @@ LEADERBOARD = [
 # best test accuracy (%) per classification project
 BY_PROJECT = [
     ("breast-cancer-prediction",  98.2, BLUE),
-    ("machine-failure-prediction", 96.6, AQUA),
+    ("machine-failure-prediction", 97.4, AQUA),
     ("liver-disease-prediction",   70.2, ORANGE),
 ]
 
@@ -145,7 +145,7 @@ def footer():
 
 SVG = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
   <title id="t">Nourhan Emad — AI engineer</title>
-  <desc id="d">Dashboard card for Nourhan Emad, an AI engineer. Five projects shipped, best R-squared 0.99, best accuracy 98.2 percent, ten forecast targets. Model leaderboard for the digger project: KNN 98.97, SVM 98.10, XGBoost 98.05, Decision Tree 96.00, Random Forest 96.00, Linear Regression 94.12 mean R-squared. Best test accuracy by project: breast cancer 98.2, machine failure 96.6, liver disease 70.2 percent.</desc>
+  <desc id="d">Dashboard card for Nourhan Emad, an AI engineer. Five projects shipped, best R-squared 0.99, best accuracy 98.2 percent, ten forecast targets. Model leaderboard for the digger project: KNN 98.97, SVM 98.10, XGBoost 98.05, Decision Tree 96.00, Random Forest 96.00, Linear Regression 94.12 mean R-squared. Best test accuracy by project: breast cancer 98.2, machine failure 97.4, liver disease 70.2 percent.</desc>
 
   <defs>
     <style>
