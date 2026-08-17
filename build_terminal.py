@@ -80,7 +80,7 @@ BUILDING = [
 
 GRID = [
     ("mail", "nourhanemadenan11111@gmail.com", "stack", "Python"),
-    ("in",   "nourhan-emad",                   "field", "Medical AI"),
+    ("in",   "nourhan-emad",                   "field", "Applied ML"),
 ]
 
 
