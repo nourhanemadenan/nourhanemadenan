@@ -60,11 +60,8 @@
 
 <a href="https://www.linkedin.com/in/nourhan-emad-a550b2253/"><b>LinkedIn</b></a> · <a href="mailto:nourhanemadenan11111@gmail.com"><b>nourhanemadenan11111@gmail.com</b></a>
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=nourhanemadenan&show_icons=true&hide_border=true&bg_color=00000000&title_color=94e2d5&text_color=cdd6f4&icon_color=89dceb" alt="GitHub stats" height="150"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nourhanemadenan&layout=compact&hide_border=true&bg_color=00000000&title_color=94e2d5&text_color=cdd6f4" alt="Top languages" height="150"/>
+<sub>Open to AI / ML engineering roles and collaborations.</sub>
 
 </div>
-
-<!-- profile -->
