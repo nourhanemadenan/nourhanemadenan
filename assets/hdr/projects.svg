@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="34" viewBox="0 0 760 34" fill="none" xml:space="preserve" role="img" aria-label="// projects">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#94e2d5" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#94e2d5" stop-opacity="0.04"/>
-    </linearGradient>
-  </defs>
-  <style>
-    .h{font-family:ui-monospace,"SF Mono","IBM Plex Mono",Menlo,monospace;font-size:17px;font-weight:600}
-    .m{fill:#94e2d5}.l{fill:#cdd6f4}
-  </style>
-  <text class="h" x="0" y="23"><tspan class="m">//</tspan><tspan class="l"> projects</tspan></text>
-  <rect x="128" y="16" width="614" height="2" rx="1" fill="url(#g)"/>
-  <rect x="748" y="12" width="9" height="9" rx="2" fill="#94e2d5" transform="rotate(45 752.5 16.5)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="34" viewBox="0 0 760 34" fill="none" role="img" aria-label="Projects">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#3987e5" stop-opacity=".85"/><stop offset="1" stop-color="#3987e5" stop-opacity="0"/>
+  </linearGradient></defs>
+  <style>.h{font-family:"Inter","Segoe UI",-apple-system,"Helvetica Neue",Arial,sans-serif;font-size:15px;font-weight:650;fill:#c3c2b7}</style>
+  <rect x="0" y="9" width="3" height="16" rx="1.5" fill="#3987e5"/>
+  <text class="h" x="14" y="22">Projects</text>
+  <rect x="91" y="16" width="664" height="1" fill="url(#g)"/>
 </svg>

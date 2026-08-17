@@ -1,13 +1,9 @@
 <div align="center">
 
-<img width="100%" src="./assets/profile-terminal.svg" alt="Nourhan Emad — AI engineer dossier"/>
+<img width="100%" src="./assets/profile-card.svg" alt="Nourhan Emad — AI engineer. Five projects, best R² 0.99, best accuracy 98.2%, ten forecast targets."/>
 
-<a href="https://www.linkedin.com/in/nourhan-emad-a550b2253/"><img height="52" src="./assets/social/linkedin.svg" alt="LinkedIn Nourhan Emad"/></a>&nbsp;
-<a href="mailto:nourhanemadenan11111@gmail.com"><img height="52" src="./assets/social/mail.svg" alt="Contact"/></a>
-
-<br/>
-
-<sub><code>NOURHAN EMAD / 知能</code> · training, evaluating, shipping</sub>
+<a href="https://www.linkedin.com/in/nourhan-emad-a550b2253/"><img height="46" src="./assets/social/linkedin.svg" alt="LinkedIn Nourhan Emad"/></a>&nbsp;
+<a href="mailto:nourhanemadenan11111@gmail.com"><img height="46" src="./assets/social/mail.svg" alt="Contact"/></a>
 
 </div>
 
