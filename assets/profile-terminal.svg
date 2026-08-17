@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">Nourhan Emad — AI engineer dossier</title>
+  <desc id="desc">Terminal-inspired profile card for Nourhan Emad, an AI engineer working on deep learning, speech and audio models, and medical machine learning.</desc>
+
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#94e2d5">
+        <animate attributeName="stop-color" values="#94e2d5;#89dceb;#a6e3a1;#94e2d5" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset=".52" stop-color="#89b4fa"/>
+      <stop offset="1" stop-color="#6c7086">
+        <animate attributeName="stop-color" values="#6c7086;#94e2d5;#89b4fa;#6c7086" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="background" cx="22%" cy="12%" r="105%">
+      <stop offset="0" stop-color="#1f2335"/>
+      <stop offset=".48" stop-color="#181825"/>
+      <stop offset="1" stop-color="#11111b"/>
+    </radialGradient>
+
+    <radialGradient id="netGlow">
+      <stop offset="0" stop-color="#94e2d5" stop-opacity=".20"/>
+      <stop offset=".55" stop-color="#89b4fa" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#11111b" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94e2d5" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#94e2d5" stop-opacity=".03"/>
+      <stop offset=".5" stop-color="#89dceb" stop-opacity=".30"/>
+      <stop offset=".52" stop-color="#94e2d5" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#94e2d5" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#94e2d5" opacity=".022"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style>
+      text, tspan { white-space: pre; }
+      .mono { font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .label { font: 600 11px "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; fill: #a6adc8; letter-spacing: 2.2px; }
+      .titlebar { font: 12px "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; fill: #6c7086; letter-spacing: .5px; }
+      .key { font: 600 14px "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; fill: #94e2d5; }
+      .value { font: 14px "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; fill: #cdd6f4; }
+      .dim { font: 13px "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; fill: #6c7086; }
+      .green { fill: #a6e3a1; }
+      .teal { fill: #94e2d5; }
+      .row { animation: reveal .45s ease both; }
+      .r1 { animation-delay: .25s; } .r2 { animation-delay: .34s; }
+      .r3 { animation-delay: .43s; } .r4 { animation-delay: .52s; }
+      .r5 { animation-delay: .61s; } .r6 { animation-delay: .70s; }
+      .r7 { animation-delay: .79s; } .r8 { animation-delay: .88s; }
+      .r9 { animation-delay: .97s; } .r10 { animation-delay: 1.06s; }
+      .r11 { animation-delay: 1.15s; } .r12 { animation-delay: 1.24s; }
+      .cursor { animation: blink 1.05s steps(1) infinite; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      @keyframes reveal { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: translateX(0); } }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+    </style>
+  </defs>
+
+  <rect width="1180" height="720" rx="19" fill="url(#background)"/>
+  <rect width="1180" height="720" rx="19" fill="url(#scanlines)"/>
+  <rect x="1.5" y="1.5" width="1177" height="717" rx="18" fill="none" stroke="url(#frame)" stroke-width="2"/>
+
+  <!-- terminal chrome -->
+  <path d="M2 19A17 17 0 0 1 19 2h1142a17 17 0 0 1 17 17v26H2z" fill="#181825" fill-opacity=".9"/>
+  <line x1="2" y1="45" x2="1178" y2="45" stroke="#313244"/>
+  <circle cx="24" cy="23" r="5" fill="#f38ba8"/>
+  <circle cx="44" cy="23" r="5" fill="#f9e2af"/>
+  <circle cx="64" cy="23" r="5" fill="#a6e3a1"/>
+  <text x="590" y="27" text-anchor="middle" class="titlebar">nourhan@lab:~$ python -m dossier --verbose</text>
+  <circle cx="1086" cy="23" r="4" fill="#a6e3a1" class="pulse"/>
+  <text x="1098" y="27" class="titlebar green">KERNEL UP</text>
+
+  <!-- panels -->
+  <rect x="18" y="63" width="422" height="595" rx="14" fill="#11111b" fill-opacity=".42" stroke="#45475a"/>
+  <rect x="456" y="63" width="706" height="595" rx="14" fill="#11111b" fill-opacity=".42" stroke="#45475a"/>
+  <text x="38" y="84" class="label">NETWORK.SIGNATURE</text>
+  <text x="476" y="84" class="label">ENGINEER.DOSSIER</text>
+
+  <!-- left: neural network -->
+  <ellipse cx="232" cy="300" rx="200" ry="180" fill="url(#netGlow)"/>
+  <text x="232" y="336" text-anchor="middle" class="mono" font-size="118" font-weight="700" fill="#94e2d5" opacity=".07" letter-spacing="-6">知能</text>
+
+  <g>
+    <line x1="96" y1="168" x2="188" y2="150" stroke="#94e2d5" stroke-opacity="0.144"/>
+    <line x1="96" y1="168" x2="188" y2="210" stroke="#94e2d5" stroke-opacity="0.105"/>
+    <line x1="96" y1="168" x2="188" y2="270" stroke="#94e2d5" stroke-opacity="0.22"/>
+    <line x1="96" y1="168" x2="188" y2="330" stroke="#94e2d5" stroke-opacity="0.087"/>
+    <line x1="96" y1="168" x2="188" y2="390" stroke="#94e2d5" stroke-opacity="0.193"/>
+    <line x1="96" y1="168" x2="188" y2="450" stroke="#94e2d5" stroke-opacity="0.154"/>
+    <line x1="96" y1="228" x2="188" y2="150" stroke="#94e2d5" stroke-opacity="0.083"/>
+    <line x1="96" y1="228" x2="188" y2="210" stroke="#94e2d5" stroke-opacity="0.187"/>
+    <line x1="96" y1="228" x2="188" y2="270" stroke="#94e2d5" stroke-opacity="0.079"/>
+    <line x1="96" y1="228" x2="188" y2="330" stroke="#94e2d5" stroke-opacity="0.17"/>
+    <line x1="96" y1="228" x2="188" y2="390" stroke="#94e2d5" stroke-opacity="0.086"/>
+    <line x1="96" y1="228" x2="188" y2="450" stroke="#94e2d5" stroke-opacity="0.091"/>
+    <line x1="96" y1="288" x2="188" y2="150" stroke="#94e2d5" stroke-opacity="0.168"/>
+    <line x1="96" y1="288" x2="188" y2="210" stroke="#94e2d5" stroke-opacity="0.26"/>
+    <line x1="96" y1="288" x2="188" y2="270" stroke="#94e2d5" stroke-opacity="0.098"/>
+    <line x1="96" y1="288" x2="188" y2="330" stroke="#94e2d5" stroke-opacity="0.121"/>
+    <line x1="96" y1="288" x2="188" y2="390" stroke="#94e2d5" stroke-opacity="0.214"/>
+    <line x1="96" y1="288" x2="188" y2="450" stroke="#94e2d5" stroke-opacity="0.288"/>
+    <line x1="96" y1="348" x2="188" y2="150" stroke="#94e2d5" stroke-opacity="0.203"/>
+    <line x1="96" y1="348" x2="188" y2="210" stroke="#94e2d5" stroke-opacity="0.161"/>
+    <line x1="96" y1="348" x2="188" y2="270" stroke="#94e2d5" stroke-opacity="0.295"/>
+    <line x1="96" y1="348" x2="188" y2="330" stroke="#94e2d5" stroke-opacity="0.081"/>
+    <line x1="96" y1="348" x2="188" y2="390" stroke="#94e2d5" stroke-opacity="0.267"/>
+    <line x1="96" y1="348" x2="188" y2="450" stroke="#94e2d5" stroke-opacity="0.137"/>
+    <line x1="96" y1="408" x2="188" y2="150" stroke="#94e2d5" stroke-opacity="0.103"/>
+    <line x1="96" y1="408" x2="188" y2="210" stroke="#94e2d5" stroke-opacity="0.097"/>
+    <line x1="96" y1="408" x2="188" y2="270" stroke="#94e2d5" stroke-opacity="0.141"/>
+    <line x1="96" y1="408" x2="188" y2="330" stroke="#94e2d5" stroke-opacity="0.258"/>
+    <line x1="96" y1="408" x2="188" y2="390" stroke="#94e2d5" stroke-opacity="0.112"/>
+    <line x1="96" y1="408" x2="188" y2="450" stroke="#94e2d5" stroke-opacity="0.204"/>
+    <line x1="188" y1="150" x2="280" y2="186" stroke="#94e2d5" stroke-opacity="0.217"/>
+    <line x1="188" y1="150" x2="280" y2="246" stroke="#94e2d5" stroke-opacity="0.156"/>
+    <line x1="188" y1="150" x2="280" y2="306" stroke="#94e2d5" stroke-opacity="0.196"/>
+    <line x1="188" y1="150" x2="280" y2="366" stroke="#94e2d5" stroke-opacity="0.084"/>
+    <line x1="188" y1="210" x2="280" y2="186" stroke="#94e2d5" stroke-opacity="0.084"/>
+    <line x1="188" y1="210" x2="280" y2="246" stroke="#94e2d5" stroke-opacity="0.117"/>
+    <line x1="188" y1="210" x2="280" y2="306" stroke="#94e2d5" stroke-opacity="0.226"/>
+    <line x1="188" y1="210" x2="280" y2="366" stroke="#94e2d5" stroke-opacity="0.168"/>
+    <line x1="188" y1="270" x2="280" y2="186" stroke="#94e2d5" stroke-opacity="0.142"/>
+    <line x1="188" y1="270" x2="280" y2="246" stroke="#94e2d5" stroke-opacity="0.205"/>
+    <line x1="188" y1="270" x2="280" y2="306" stroke="#94e2d5" stroke-opacity="0.174"/>
+    <line x1="188" y1="270" x2="280" y2="366" stroke="#94e2d5" stroke-opacity="0.139"/>
+    <line x1="188" y1="330" x2="280" y2="186" stroke="#94e2d5" stroke-opacity="0.253"/>
+    <line x1="188" y1="330" x2="280" y2="246" stroke="#94e2d5" stroke-opacity="0.231"/>
+    <line x1="188" y1="330" x2="280" y2="306" stroke="#94e2d5" stroke-opacity="0.126"/>
+    <line x1="188" y1="330" x2="280" y2="366" stroke="#94e2d5" stroke-opacity="0.202"/>
+    <line x1="188" y1="390" x2="280" y2="186" stroke="#94e2d5" stroke-opacity="0.191"/>
+    <line x1="188" y1="390" x2="280" y2="246" stroke="#94e2d5" stroke-opacity="0.271"/>
+    <line x1="188" y1="390" x2="280" y2="306" stroke="#94e2d5" stroke-opacity="0.238"/>
+    <line x1="188" y1="390" x2="280" y2="366" stroke="#94e2d5" stroke-opacity="0.136"/>
+    <line x1="188" y1="450" x2="280" y2="186" stroke="#94e2d5" stroke-opacity="0.295"/>
+    <line x1="188" y1="450" x2="280" y2="246" stroke="#94e2d5" stroke-opacity="0.097"/>
+    <line x1="188" y1="450" x2="280" y2="306" stroke="#94e2d5" stroke-opacity="0.166"/>
+    <line x1="188" y1="450" x2="280" y2="366" stroke="#94e2d5" stroke-opacity="0.244"/>
+    <line x1="280" y1="186" x2="368" y2="246" stroke="#94e2d5" stroke-opacity="0.105"/>
+    <line x1="280" y1="186" x2="368" y2="306" stroke="#94e2d5" stroke-opacity="0.182"/>
+    <line x1="280" y1="246" x2="368" y2="246" stroke="#94e2d5" stroke-opacity="0.079"/>
+    <line x1="280" y1="246" x2="368" y2="306" stroke="#94e2d5" stroke-opacity="0.224"/>
+    <line x1="280" y1="306" x2="368" y2="246" stroke="#94e2d5" stroke-opacity="0.246"/>
+    <line x1="280" y1="306" x2="368" y2="306" stroke="#94e2d5" stroke-opacity="0.202"/>
+    <line x1="280" y1="366" x2="368" y2="246" stroke="#94e2d5" stroke-opacity="0.271"/>
+    <line x1="280" y1="366" x2="368" y2="306" stroke="#94e2d5" stroke-opacity="0.142"/>
+  </g>
+  <g>
+    <circle cx="96" cy="168" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.0s" repeatCount="indefinite"/></circle>
+    <circle cx="96" cy="228" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.06s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.06s" repeatCount="indefinite"/></circle>
+    <circle cx="96" cy="288" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.12s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.12s" repeatCount="indefinite"/></circle>
+    <circle cx="96" cy="348" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.18s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.18s" repeatCount="indefinite"/></circle>
+    <circle cx="96" cy="408" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.24s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.24s" repeatCount="indefinite"/></circle>
+    <circle cx="188" cy="150" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.15s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.15s" repeatCount="indefinite"/></circle>
+    <circle cx="188" cy="210" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.21s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.21s" repeatCount="indefinite"/></circle>
+    <circle cx="188" cy="270" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.27s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.27s" repeatCount="indefinite"/></circle>
+    <circle cx="188" cy="330" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.33s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.33s" repeatCount="indefinite"/></circle>
+    <circle cx="188" cy="390" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.39s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.39s" repeatCount="indefinite"/></circle>
+    <circle cx="188" cy="450" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="186" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="246" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.36s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.36s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="306" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.42s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.42s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="366" r="7" fill="#181825" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.48s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.48s" repeatCount="indefinite"/></circle>
+    <circle cx="368" cy="246" r="7" fill="#94e2d5" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle cx="368" cy="306" r="7" fill="#94e2d5" stroke="#94e2d5" stroke-opacity=".75"><animate attributeName="r" values="7;8.6;7" dur="3.4s" begin="0.51s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".75;1;.75" dur="3.4s" begin="0.51s" repeatCount="indefinite"/></circle>
+  </g>
+  <g>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 348 L188 390 L280 366 L368 306" dur="2.60s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.60s" begin="0.00s" repeatCount="indefinite"/></circle>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 408 L188 390 L280 246 L368 246" dur="2.95s" begin="0.40s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.95s" begin="0.40s" repeatCount="indefinite"/></circle>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 408 L188 330 L280 246 L368 246" dur="3.30s" begin="0.80s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="3.30s" begin="0.80s" repeatCount="indefinite"/></circle>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 348 L188 270 L280 246 L368 246" dur="3.65s" begin="1.20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="3.65s" begin="1.20s" repeatCount="indefinite"/></circle>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 408 L188 450 L280 186 L368 306" dur="4.00s" begin="1.60s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="4.00s" begin="1.60s" repeatCount="indefinite"/></circle>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 348 L188 450 L280 246 L368 246" dur="4.35s" begin="2.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="4.35s" begin="2.00s" repeatCount="indefinite"/></circle>
+    <circle r="3.2" fill="#89dceb"><animateMotion path="M96 408 L188 150 L280 186 L368 246" dur="4.70s" begin="2.40s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="4.70s" begin="2.40s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="mono" font-size="11" fill="#6c7086">
+    <text x="42" y="126">LAYERS: 4</text>
+    <text x="330" y="126">EPOCH: ∞</text>
+    <text x="42" y="462">LOSS: ↓ CONVERGING</text>
+    <text x="352" y="462" class="green">FIT</text>
+  </g>
+
+  <text x="232" y="497" text-anchor="middle" class="mono" font-size="25" font-weight="700" fill="#cdd6f4" letter-spacing="4">NOURHAN EMAD</text>
+  <text x="232" y="519" text-anchor="middle" class="mono" font-size="11" fill="#6c7086" letter-spacing="3">AI · DEEP LEARNING</text>
+
+  <g transform="translate(42 536)">
+    <rect width="376" height="106" rx="9" fill="#181825" stroke="#313244"/>
+    <text x="16" y="26" class="mono" font-size="12"><tspan class="green">nourhan@lab</tspan><tspan fill="#6c7086">:</tspan><tspan class="teal">~</tspan><tspan fill="#6c7086">$ cat approach.txt</tspan></text>
+    <text x="16" y="53" class="mono" font-size="13" fill="#cdd6f4">Models are hypotheses. Metrics</text>
+    <text x="16" y="74" class="mono" font-size="13" fill="#cdd6f4">are how you cross-examine them.</text>
+    <text x="16" y="95" class="mono" font-size="12" fill="#a6adc8">confusion matrix &gt; accuracy score</text>
+    <rect x="345" y="83" width="8" height="14" fill="#94e2d5" class="cursor"/>
+  </g>
+
+  <!-- right: dossier -->
+  <g class="row r1">
+    <text x="476" y="119" class="key">nourhan@lab</text>
+    <line x1="596" y1="114" x2="1138" y2="114" stroke="#313244"/>
+  </g>
+  <g class="row r2">
+    <text x="476" y="151" class="dim">[+]</text>
+    <text x="508" y="151" class="key">identity</text>
+    <text x="640" y="151" class="value">Nourhan Emad</text>
+  </g>
+  <g class="row r3">
+    <text x="476" y="178" class="dim">[+]</text>
+    <text x="508" y="178" class="key">role</text>
+    <text x="640" y="178" class="value">AI Engineer · Deep Learning</text>
+  </g>
+  <g class="row r4">
+    <text x="476" y="205" class="dim">[+]</text>
+    <text x="508" y="205" class="key">origin</text>
+    <text x="640" y="205" class="value">Egypt</text>
+  </g>
+  <g class="row r5">
+    <text x="476" y="232" class="dim">[+]</text>
+    <text x="508" y="232" class="key">runtime</text>
+    <text x="640" y="232" class="value">PyTorch · TensorFlow · scikit-learn</text>
+  </g>
+  <g class="row r6">
+    <text x="476" y="259" class="dim">[+]</text>
+    <text x="508" y="259" class="key">status</text>
+    <text x="640" y="259" class="value">Training · evaluating · shipping</text>
+  </g>
+
+  <g class="row r6">
+    <text x="476" y="303" class="key green">:: focus</text>
+    <line x1="558" y1="298" x2="1138" y2="298" stroke="#313244"/>
+  </g>
+  <g class="row r7">
+    <text x="476" y="334" class="dim">01 /</text>
+    <text x="530" y="334" class="value">Deep Learning</text>
+    <text x="762" y="334" class="dim">04 /</text>
+    <text x="816" y="334" class="value">Time-Series Regression</text>
+  </g>
+  <g class="row r8">
+    <text x="476" y="361" class="dim">02 /</text>
+    <text x="530" y="361" class="value">Speech &amp; Audio Models</text>
+    <text x="762" y="361" class="dim">05 /</text>
+    <text x="816" y="361" class="value">Imbalanced Data</text>
+  </g>
+  <g class="row r9">
+    <text x="476" y="388" class="dim">03 /</text>
+    <text x="530" y="388" class="value">Classical ML</text>
+    <text x="762" y="388" class="dim">06 /</text>
+    <text x="816" y="388" class="value">Feature Engineering</text>
+  </g>
+
+  <g class="row r7">
+    <text x="476" y="432" class="key green">:: building</text>
+    <line x1="582" y1="427" x2="1138" y2="427" stroke="#313244"/>
+  </g>
+  <g class="row r8">
+    <text x="476" y="463" class="key">project</text>
+    <text x="610" y="463" class="value">nasam</text>
+  </g>
+  <g class="row r9">
+    <text x="476" y="490" class="key">position</text>
+    <text x="610" y="490" class="value">Author &amp; Maintainer</text>
+  </g>
+  <g class="row r10">
+    <text x="476" y="517" class="key">purpose</text>
+    <text x="610" y="517" class="value">Breath-sound disease detection · Wav2Vec2</text>
+  </g>
+
+  <g class="row r9">
+    <text x="476" y="561" class="key green">:: grid</text>
+    <line x1="548" y1="556" x2="1138" y2="556" stroke="#313244"/>
+  </g>
+  <g class="row r10">
+    <text x="476" y="592" class="key">mail</text>
+    <text x="535" y="592" class="value">nourhanemadenan11111@gmail.com</text>
+    <text x="852" y="592" class="key">stack</text>
+    <text x="912" y="592" class="value">Python</text>
+  </g>
+  <g class="row r11">
+    <text x="476" y="619" class="key">in</text>
+    <text x="535" y="619" class="value">nourhan-emad</text>
+    <text x="852" y="619" class="key">field</text>
+    <text x="912" y="619" class="value">Medical AI</text>
+  </g>
+
+  <!-- live scan and footer -->
+  <rect x="2" y="-150" width="1176" height="180" fill="url(#scan)" pointer-events="none">
+    <animate attributeName="y" values="-180;720" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="24" y="694" class="titlebar">SIGNAL OVER NOISE · GRADIENTS DESCENDING</text>
+  <text x="1156" y="694" text-anchor="end" class="titlebar teal">NOURHAN EMAD / 知能</text>
+</svg>
