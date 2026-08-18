@@ -5,26 +5,25 @@
   <defs>
     <style>
       text { font-family: "Inter", "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
-      .name       { font-size: 34px; font-weight: 700; fill: #ffffff; letter-spacing: -.5px; }
-      .role       { font-size: 15px; fill: #c3c2b7; }
-      .meta       { font-size: 13px; fill: #8b8a80; }
-      .stat       { font-size: 34px; font-weight: 650; fill: #ffffff; letter-spacing: -.5px; }
-      .tile-label { font-size: 10.5px; fill: #8b8a80; letter-spacing: 1.4px; font-weight: 600; }
-      .panel-title{ font-size: 16px; font-weight: 650; fill: #ffffff; }
-      .panel-sub  { font-size: 12.5px; fill: #8b8a80; }
-      .row-label  { font-size: 13px; fill: #c3c2b7; }
-      .value      { font-size: 13px; font-weight: 650; fill: #ffffff; font-variant-numeric: tabular-nums; }
-      .axis       { font-size: 11px; fill: #8b8a80; }
-      .axis-title { font-size: 11px; fill: #8b8a80; letter-spacing: .4px; }
-      .chip       { font-size: 12px; fill: #c3c2b7; }
-      .stack      { font-size: 12.5px; fill: #8b8a80; }
+      .name       { font-size: 34px; font-weight: 700; fill: #e6edf3; letter-spacing: -.5px; }
+      .role       { font-size: 15px; fill: #c9d1d9; }
+      .meta       { font-size: 13px; fill: #8b949e; }
+      .stat       { font-size: 34px; font-weight: 650; fill: #e6edf3; letter-spacing: -.5px; }
+      .tile-label { font-size: 10.5px; fill: #8b949e; letter-spacing: 1.4px; font-weight: 600; }
+      .panel-title{ font-size: 16px; font-weight: 650; fill: #e6edf3; }
+      .panel-sub  { font-size: 12.5px; fill: #8b949e; }
+      .row-label  { font-size: 13px; fill: #c9d1d9; }
+      .value      { font-size: 13px; font-weight: 650; fill: #e6edf3; font-variant-numeric: tabular-nums; }
+      .axis       { font-size: 11px; fill: #8b949e; }
+      .axis-title { font-size: 11px; fill: #8b949e; letter-spacing: .4px; }
+      .chip       { font-size: 12px; fill: #c9d1d9; }
+      .stack      { font-size: 12.5px; fill: #8b949e; }
       .fade       { animation: fade .5s ease both; }
       @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
     </style>
   </defs>
 
-  <rect width="1180" height="640" rx="16" fill="#1a1a19"/>
-  <rect x=".5" y=".5" width="1179" height="639" rx="15.5" fill="none" stroke="#33332f"/>
+  <rect width="1180" height="640" rx="16" fill="#0d1117"/>
 
   <!-- header -->
   <g class="fade">
@@ -35,87 +34,87 @@
   </g>
 
   <g class="fade" style="animation-delay:0.10s">
-    <rect x="40" y="114" width="263" height="92" rx="10" fill="#222220" stroke="#33332f"/>
+    <rect x="40" y="114" width="263" height="92" rx="10" fill="#161b22" stroke="#30363d"/>
     <rect x="40" y="114" width="3" height="92" rx="1.5" fill="#3987e5"/>
     <text x="62" y="163" class="stat">5</text>
     <text x="62" y="186" class="tile-label">PROJECTS SHIPPED</text>
   </g>
   <g class="fade" style="animation-delay:0.17s">
-    <rect x="319" y="114" width="263" height="92" rx="10" fill="#222220" stroke="#33332f"/>
+    <rect x="319" y="114" width="263" height="92" rx="10" fill="#161b22" stroke="#30363d"/>
     <rect x="319" y="114" width="3" height="92" rx="1.5" fill="#3987e5"/>
     <text x="341" y="163" class="stat">0.99</text>
     <text x="341" y="186" class="tile-label">BEST R²</text>
   </g>
   <g class="fade" style="animation-delay:0.24s">
-    <rect x="598" y="114" width="263" height="92" rx="10" fill="#222220" stroke="#33332f"/>
+    <rect x="598" y="114" width="263" height="92" rx="10" fill="#161b22" stroke="#30363d"/>
     <rect x="598" y="114" width="3" height="92" rx="1.5" fill="#3987e5"/>
     <text x="620" y="163" class="stat">98.2%</text>
     <text x="620" y="186" class="tile-label">BEST ACCURACY</text>
   </g>
   <g class="fade" style="animation-delay:0.31s">
-    <rect x="877" y="114" width="263" height="92" rx="10" fill="#222220" stroke="#33332f"/>
+    <rect x="877" y="114" width="263" height="92" rx="10" fill="#161b22" stroke="#30363d"/>
     <rect x="877" y="114" width="3" height="92" rx="1.5" fill="#3987e5"/>
     <text x="899" y="163" class="stat">10</text>
     <text x="899" y="186" class="tile-label">FORECAST TARGETS</text>
   </g>
 
-  <rect x="40" y="228" width="620" height="300" rx="12" fill="#222220" stroke="#33332f"/>
+  <rect x="40" y="228" width="620" height="300" rx="12" fill="#161b22" stroke="#30363d"/>
   <text x="62" y="260" class="panel-title">Model leaderboard</text>
   <text x="62" y="280" class="panel-sub">digger &#183; mean R&#178; across 10 commodity targets</text>
-  <line x1="228.0" y1="302" x2="228.0" y2="478" stroke="#33332f"/>
+  <line x1="228.0" y1="302" x2="228.0" y2="478" stroke="#30363d"/>
   <text x="228.0" y="500" class="axis" text-anchor="middle">92</text>
-  <line x1="317.5" y1="302" x2="317.5" y2="478" stroke="#33332f"/>
+  <line x1="317.5" y1="302" x2="317.5" y2="478" stroke="#30363d"/>
   <text x="317.5" y="500" class="axis" text-anchor="middle">94</text>
-  <line x1="407.0" y1="302" x2="407.0" y2="478" stroke="#33332f"/>
+  <line x1="407.0" y1="302" x2="407.0" y2="478" stroke="#30363d"/>
   <text x="407.0" y="500" class="axis" text-anchor="middle">96</text>
-  <line x1="496.5" y1="302" x2="496.5" y2="478" stroke="#33332f"/>
+  <line x1="496.5" y1="302" x2="496.5" y2="478" stroke="#30363d"/>
   <text x="496.5" y="500" class="axis" text-anchor="middle">98</text>
-  <line x1="586.0" y1="302" x2="586.0" y2="478" stroke="#33332f"/>
+  <line x1="586.0" y1="302" x2="586.0" y2="478" stroke="#30363d"/>
   <text x="586.0" y="500" class="axis" text-anchor="middle">100</text>
   <text x="407" y="518" class="axis-title" text-anchor="middle">mean R&#178; (%)</text>
   <g class="fade" style="animation-delay:0.45s">
     <text x="212" y="328" class="row-label" text-anchor="end">KNN Regressor</text>
     <line x1="228" y1="324" x2="539.9" y2="324" stroke="#3987e5" stroke-opacity=".30" stroke-width="2"/>
-    <circle cx="539.9" cy="324" r="5.5" fill="#3987e5" stroke="#222220" stroke-width="2"/>
+    <circle cx="539.9" cy="324" r="5.5" fill="#3987e5" stroke="#161b22" stroke-width="2"/>
     <text x="555.9" y="328" class="value">98.97</text>
   </g>
   <g class="fade" style="animation-delay:0.51s">
     <text x="212" y="355" class="row-label" text-anchor="end">SVM</text>
     <line x1="228" y1="351" x2="501.0" y2="351" stroke="#3987e5" stroke-opacity=".30" stroke-width="2"/>
-    <circle cx="501.0" cy="351" r="5.5" fill="#3987e5" stroke="#222220" stroke-width="2"/>
+    <circle cx="501.0" cy="351" r="5.5" fill="#3987e5" stroke="#161b22" stroke-width="2"/>
     <text x="517.0" y="355" class="value">98.10</text>
   </g>
   <g class="fade" style="animation-delay:0.57s">
     <text x="212" y="382" class="row-label" text-anchor="end">XGBoost</text>
     <line x1="228" y1="378" x2="498.7" y2="378" stroke="#3987e5" stroke-opacity=".30" stroke-width="2"/>
-    <circle cx="498.7" cy="378" r="5.5" fill="#3987e5" stroke="#222220" stroke-width="2"/>
+    <circle cx="498.7" cy="378" r="5.5" fill="#3987e5" stroke="#161b22" stroke-width="2"/>
     <text x="514.7" y="382" class="value">98.05</text>
   </g>
   <g class="fade" style="animation-delay:0.63s">
     <text x="212" y="409" class="row-label" text-anchor="end">Decision Tree</text>
     <line x1="228" y1="405" x2="407.0" y2="405" stroke="#3987e5" stroke-opacity=".30" stroke-width="2"/>
-    <circle cx="407.0" cy="405" r="5.5" fill="#3987e5" stroke="#222220" stroke-width="2"/>
+    <circle cx="407.0" cy="405" r="5.5" fill="#3987e5" stroke="#161b22" stroke-width="2"/>
     <text x="423.0" y="409" class="value">96.00</text>
   </g>
   <g class="fade" style="animation-delay:0.69s">
     <text x="212" y="436" class="row-label" text-anchor="end">Random Forest</text>
     <line x1="228" y1="432" x2="407.0" y2="432" stroke="#3987e5" stroke-opacity=".30" stroke-width="2"/>
-    <circle cx="407.0" cy="432" r="5.5" fill="#3987e5" stroke="#222220" stroke-width="2"/>
+    <circle cx="407.0" cy="432" r="5.5" fill="#3987e5" stroke="#161b22" stroke-width="2"/>
     <text x="423.0" y="436" class="value">96.00</text>
   </g>
   <g class="fade" style="animation-delay:0.75s">
     <text x="212" y="463" class="row-label" text-anchor="end">Linear Regression</text>
     <line x1="228" y1="459" x2="322.9" y2="459" stroke="#3987e5" stroke-opacity=".30" stroke-width="2"/>
-    <circle cx="322.9" cy="459" r="5.5" fill="#3987e5" stroke="#222220" stroke-width="2"/>
+    <circle cx="322.9" cy="459" r="5.5" fill="#3987e5" stroke="#161b22" stroke-width="2"/>
     <text x="338.9" y="463" class="value">94.12</text>
   </g>
 
-  <rect x="676" y="228" width="464" height="300" rx="12" fill="#222220" stroke="#33332f"/>
+  <rect x="676" y="228" width="464" height="300" rx="12" fill="#161b22" stroke="#30363d"/>
   <text x="698" y="260" class="panel-title">Best test accuracy by project</text>
   <text x="698" y="280" class="panel-sub">classification repos &#183; held-out test split</text>
   <g class="fade" style="animation-delay:0.55s">
     <text x="698" y="312" class="row-label">breast-cancer-prediction</text>
-    <rect x="698" y="322" width="412" height="14" rx="7" fill="#33332f" fill-opacity=".55"/>
+    <rect x="698" y="322" width="412" height="14" rx="7" fill="#30363d" fill-opacity=".55"/>
     <rect x="698" y="322" width="404.6" height="14" rx="7" fill="#3987e5">
       <animate attributeName="width" from="0" to="404.6" dur=".9s" begin="0.55s" fill="freeze"/>
     </rect>
@@ -123,7 +122,7 @@
   </g>
   <g class="fade" style="animation-delay:0.64s">
     <text x="698" y="374" class="row-label">machine-failure-prediction</text>
-    <rect x="698" y="384" width="412" height="14" rx="7" fill="#33332f" fill-opacity=".55"/>
+    <rect x="698" y="384" width="412" height="14" rx="7" fill="#30363d" fill-opacity=".55"/>
     <rect x="698" y="384" width="401.3" height="14" rx="7" fill="#199e70">
       <animate attributeName="width" from="0" to="401.3" dur=".9s" begin="0.64s" fill="freeze"/>
     </rect>
@@ -131,32 +130,32 @@
   </g>
   <g class="fade" style="animation-delay:0.73s">
     <text x="698" y="436" class="row-label">liver-disease-prediction</text>
-    <rect x="698" y="446" width="412" height="14" rx="7" fill="#33332f" fill-opacity=".55"/>
+    <rect x="698" y="446" width="412" height="14" rx="7" fill="#30363d" fill-opacity=".55"/>
     <rect x="698" y="446" width="289.2" height="14" rx="7" fill="#d95926">
       <animate attributeName="width" from="0" to="289.2" dur=".9s" begin="0.73s" fill="freeze"/>
     </rect>
     <text x="1118" y="458" class="value">70.2</text>
   </g>
-  <line x1="698" y1="486" x2="1110" y2="486" stroke="#33332f"/>
+  <line x1="698" y1="486" x2="1110" y2="486" stroke="#30363d"/>
   <text x="698" y="508" class="axis">0</text>
   <text x="1110" y="508" class="axis" text-anchor="end">100%</text>
   <text x="904" y="508" class="axis" text-anchor="middle">accuracy</text>
 
-  <line x1="40" y1="556" x2="1140" y2="556" stroke="#33332f"/>
+  <line x1="40" y1="556" x2="1140" y2="556" stroke="#30363d"/>
   <g class="fade" style="animation-delay:0.75s">
-    <rect x="40" y="580" width="111" height="28" rx="14" fill="none" stroke="#33332f"/>
+    <rect x="40" y="580" width="111" height="28" rx="14" fill="none" stroke="#30363d"/>
     <text x="96" y="598" class="chip" text-anchor="middle">Deep learning</text>
   </g>
   <g class="fade" style="animation-delay:0.80s">
-    <rect x="161" y="580" width="119" height="28" rx="14" fill="none" stroke="#33332f"/>
+    <rect x="161" y="580" width="119" height="28" rx="14" fill="none" stroke="#30363d"/>
     <text x="220" y="598" class="chip" text-anchor="middle">Speech &amp; audio</text>
   </g>
   <g class="fade" style="animation-delay:0.85s">
-    <rect x="290" y="580" width="185" height="28" rx="14" fill="none" stroke="#33332f"/>
+    <rect x="290" y="580" width="185" height="28" rx="14" fill="none" stroke="#30363d"/>
     <text x="382" y="598" class="chip" text-anchor="middle">Time-series forecasting</text>
   </g>
   <g class="fade" style="animation-delay:0.90s">
-    <rect x="485" y="580" width="126" height="28" rx="14" fill="none" stroke="#33332f"/>
+    <rect x="485" y="580" width="126" height="28" rx="14" fill="none" stroke="#30363d"/>
     <text x="548" y="598" class="chip" text-anchor="middle">Imbalanced data</text>
   </g>
   <text x="1140" y="598" class="stack" text-anchor="end">PyTorch · TensorFlow · scikit-learn · XGBoost · pandas · librosa</text>

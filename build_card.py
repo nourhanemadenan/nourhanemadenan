@@ -12,13 +12,13 @@ import pathlib
 
 W, H = 1180, 640
 
-# ── palette (validated: scripts/validate_palette.js, dark surface #1a1a19) ──
-SURFACE   = "#1a1a19"
-PANEL     = "#222220"
-LINE      = "#33332f"
-INK       = "#ffffff"
-INK_2     = "#c3c2b7"
-INK_MUTED = "#8b8a80"
+# ── palette — GitHub dark theme tokens, so the card blends into the page ──
+SURFACE   = "#0d1117"   # GitHub dark canvas.default
+PANEL     = "#161b22"   # canvas.subtle
+LINE      = "#30363d"   # border.default
+INK       = "#e6edf3"   # fg.default
+INK_2     = "#c9d1d9"   # fg.subtle-ish
+INK_MUTED = "#8b949e"   # fg.muted
 BLUE      = "#3987e5"   # categorical slot 1
 ORANGE    = "#d95926"   # slot 2
 AQUA      = "#199e70"   # slot 3
@@ -169,7 +169,6 @@ SVG = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   </defs>
 
   <rect width="{W}" height="{H}" rx="16" fill="{SURFACE}"/>
-  <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="15.5" fill="none" stroke="{LINE}"/>
 
   <!-- header -->
   <g class="fade">
